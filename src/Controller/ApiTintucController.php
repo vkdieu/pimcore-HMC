@@ -43,7 +43,7 @@ class ApiTintucController extends BaseController
     // dd($requestData);
 
 
-    $newObject = new DataObject\Tintuc();
+    $newObject = new Tintuc();
     $ramdom = rand() . 'Tintuc';
 
 
